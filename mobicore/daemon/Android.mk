@@ -10,7 +10,7 @@ LOCAL_PATH := $(call my-dir)
 # =============================================================================
 include $(CLEAR_VARS)
 LOCAL_MODULE := libMcClient
-LOCAL_MODULE_TAGS := debug eng optional
+LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES += $(GLOBAL_INCLUDES)
 LOCAL_SHARED_LIBRARIES += $(GLOBAL_LIBRARIES) liblog
 
