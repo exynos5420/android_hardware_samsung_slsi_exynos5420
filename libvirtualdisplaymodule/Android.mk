@@ -24,14 +24,14 @@ LOCAL_CFLAGS += -DUSES_VIRTUAL_DISPLAY
 LOCAL_C_INCLUDES := \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
 	$(LOCAL_PATH)/../../exynos5/include \
-	$(TOP)/hardware/samsung_slsi-cm/exynos/include \
-	$(TOP)/hardware/samsung_slsi-cm/exynos/libexynosutils \
-	$(TOP)/hardware/samsung_slsi-cm/$(TARGET_SOC)/include \
-	$(TOP)/hardware/samsung_slsi-cm/$(TARGET_SOC)/libhwcmodule \
-	$(TOP)/hardware/samsung_slsi-cm/exynos/libhwc \
-	$(TOP)/hardware/samsung_slsi-cm/exynos/libhwcutils \
-	$(TOP)/hardware/samsung_slsi-cm/exynos/libexynosdisplay \
-	$(TOP)/hardware/samsung_slsi-cm/exynos/libvirtualdisplay
+	$(TOP)/hardware/samsung_slsi/exynos/include \
+	$(TOP)/hardware/samsung_slsi/exynos/libexynosutils \
+	$(TOP)/hardware/samsung_slsi/$(TARGET_SOC)/include \
+	$(TOP)/hardware/samsung_slsi/$(TARGET_SOC)/libhwcmodule \
+	$(TOP)/hardware/samsung_slsi/exynos/libhwc \
+	$(TOP)/hardware/samsung_slsi/exynos/libhwcutils \
+	$(TOP)/hardware/samsung_slsi/exynos/libexynosdisplay \
+	$(TOP)/hardware/samsung_slsi/exynos/libvirtualdisplay
 
 LOCAL_ADDITIONAL_DEPENDENCIES += \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
